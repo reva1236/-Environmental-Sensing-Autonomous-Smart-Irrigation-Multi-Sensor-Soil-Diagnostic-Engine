@@ -1,7 +1,7 @@
 # Environmental Sensing Autonomous Smart Irrigation Multi Sensor Soil Diagnostic Engine
 
 ## Project Overview
-Using tabular datasets compiled from localized environmental telemetry (ambient temperature, relative humidity, atmospheric pressure, solar radiation, NPK indices), build an ensemble model (XGBoost) to predict real-time soil moisture depletion rates and generate automated irrigation control variables.
+**Using tabular datasets compiled from localized environmental telemetry (ambient temperature, relative humidity, atmospheric pressure, solar radiation, NPK indices), build an ensemble model (XGBoost) to predict real-time soil moisture depletion rates and generate automated irrigation control variables.**
 ---
 ## Features
 
@@ -73,14 +73,14 @@ Allows the parameters not necessary to become 0 while in ridge they tend to 0.
 
 ### Bias–Variance Trade-off
 
-Bias
+**Bias**
 The inability of an ML method to capture the true relation is called bias.
 
-Variance
+**Variance**
 The inability of an ML method to perform for the testing set is called variance.
 
-Methods:
-* Regularization
+**Methods:
+*** Regularization
 * Boosting
 * Bagging
 ---
@@ -92,7 +92,7 @@ Methods:
 * If the ML model works – Testing the algorithm.
 * Cross validation uses different blocks for training and testing.
 
-Types
+**Types**
 * Dividing into 4 blocks → Four-fold classification.
 * Using 1 record for test and rest for training → Leave-one-out validation.
 * 10-fold is most common.
