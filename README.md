@@ -1,7 +1,7 @@
 # Environmental Sensing Autonomous Smart Irrigation Multi Sensor Soil Diagnostic Engine
 
 ## Project Overview
-**Using tabular datasets compiled from localized environmental telemetry (ambient temperature, relative humidity, atmospheric pressure, solar radiation, NPK indices), build an ensemble model (XGBoost) to predict real-time soil moisture depletion rates and generate automated irrigation control variables.**
+Using tabular datasets compiled from localized environmental telemetry (ambient temperature, relative humidity, atmospheric pressure, solar radiation, NPK indices), build an ensemble model (XGBoost) to predict real-time soil moisture depletion rates and generate automated irrigation control variables.
 ---
 ## Features
 
@@ -79,8 +79,8 @@ The inability of an ML method to capture the true relation is called bias.
 **Variance**
 The inability of an ML method to perform for the testing set is called variance.
 
-**Methods:
-*** Regularization
+**Methods:**
+* Regularization
 * Boosting
 * Bagging
 ---
